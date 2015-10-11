@@ -1,0 +1,12 @@
+[package]
+name = "graphite-aggregator"
+version = "0.1.0"
+authors = ["Your Name <you@example.com>"]
+
+[dependencies]
+getopts = "0.2"
+rpassword= "0.0.6"
+hyper = "0.6.15"
+rustc-serialize = "0.3.16"
+[dependencies.url]
+git = "https://github.com/servo/rust-url"
